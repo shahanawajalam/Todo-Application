@@ -1,0 +1,89 @@
+body    {
+    margin-top:0px;
+    background:whitesmoke;
+    }
+    
+nav {
+        width: 100%;
+        background-color:black;
+        overflow: auto;
+        margin-top: 0px;
+        padding: 0%;
+        color: whitesmoke;
+      }
+
+    .show{
+        margin-top: 1.5em;
+        margin-left: 6em;
+        width: 80%;
+    }
+    
+      form{
+          border: 2px solid rgb(205, 207, 214);
+          padding: 10px 15px 10px 15px;
+      }
+      .addTodo{
+          font-weight: bold;
+      }
+    
+      .inputForm{
+          margin-top: 0.2fr;
+          border: 2px solid rgb(23, 23, 85);
+          height: 80px;
+
+      }
+
+      .clearButton{
+          position: fixed;
+          bottom: 0;
+      }
+
+      .submitButton{
+          margin-top: 12px;
+          
+      }
+
+      h3{
+          margin-top: 10px;
+          border-top: 2px solid rgb(205, 207, 214);
+          border-bottom: 2px solid rgb(205, 207, 214);
+          padding: 5px 0px 5px 0px;
+      }
+
+      .listItems{
+            height: 0px;
+      }
+      h2{
+        font-weight: lighter;
+      }
+      
+      li{
+          margin: 2px;
+      }
+
+      nav input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top:3px;
+        margin-right: 16px;
+        font-size: 17px;
+      }
+      i{
+          color: rgb(205, 207, 214);
+          margin:10px ;
+      }
+
+      .completed{
+        color: rgb(0, 87, 0);
+        font-style: italic;
+        font-weight: bold;
+      }
+
+      .night{
+        margin-left: 200px;
+        size: 100px;
+        margin-top: 5px;
+      }
+      
+ 
