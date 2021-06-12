@@ -30,7 +30,6 @@ nav {
           margin-top: 0.2fr;
           border: 2px solid rgb(23, 23, 85);
           height: 80px;
-          padding-bottom: 80%;
 
       }
 
@@ -85,6 +84,7 @@ nav {
         margin-left: 200px;
         size: 100px;
         margin-top: 5px;
+          padding-bottom:80%;
       }
       
  
