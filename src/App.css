@@ -84,11 +84,32 @@ nav {
         margin-left: 200px;
         size: 100px;
         margin-top: 5px;
-    
+        float: right;
+      }
+      .card-text{
+        color: black;
+      }
+
+      .bg-dark{
+        padding-bottom: 30%;
       }
       
-
-.bg-dark{
-    padding-bottom:10%;
-}
- 
+      @media(max-width:720px){
+        .search-box{
+          display: none;
+        }
+        .night{
+          float: none;
+          margin-left: 0px;
+        }
+        .navbar{
+          display:grid;
+          grid-template-columns: 60% 40%;
+        }
+        .show{
+          margin-left: 2.5em;
+        }
+        .bg-dark{
+          padding-bottom: 90%;
+        }
+      }
