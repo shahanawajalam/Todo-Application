@@ -93,6 +93,10 @@ nav {
       .bg-dark{
         padding-bottom: 30%;
       }
+
+        .flush{
+        padding-bottom:50px;
+        }
       
       @media(max-width:720px){
         .search-box{
